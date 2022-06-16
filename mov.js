@@ -188,7 +188,7 @@
 			  	onUpdate();
 				renderer.render(scene, camera);
 				if(group){
-					group.position.z = -1*((frame_counter/2)%200-165)
+					group.position.z = -1*((frame_counter/2)%300-165)
 					group.position.y = 1-1*average/15
           console.log(average/10)
 				}
